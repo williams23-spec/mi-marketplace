@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fa;
+  color: #222;
+}
+
+header {
+  background: #14213d;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #dbe4f0;
+}
+
+nav {
+  background: #ffffff;
+  padding: 16px 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #14213d;
+  font-weight: bold;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-bottom: 18px;
+  color: #14213d;
+}
+
+.welcome {
+  background: #ffffff;
+  text-align: center;
+  padding: 40px 15px;
+  border-radius: 12px;
+}
+
+.welcome p {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  max-width: 450px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background: #fca311;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+}
+
+.product {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ddd;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.product-image {
+  background: #edf1f7;
+  padding: 25px;
+  text-align: center;
+  font-size: 45px;
+  border-radius: 8px;
+}
+
+.product strong {
+  color: #e58b00;
+}
+
+#sell {
+  background: #14213d;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+#sell h2 {
+  color: white;
+}
+
+#sell p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+footer {
+  background: #14213d;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav a {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  main {
+    padding: 12px;
+  }
+  }
+  
